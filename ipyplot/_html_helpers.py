@@ -88,14 +88,14 @@ def _create_tabs(
             }
             input.ipyplot-tab-%(0)s + label.ipyplot-tab-label-%(0)s {
                 border: 1px solid #999;
-                background: #EEE;
+                background: black;
                 padding: 4px 12px;
                 border-radius: 4px 4px 0 0;
                 position: relative;
                 top: 1px;
             }
             input.ipyplot-tab-%(0)s:checked + label.ipyplot-tab-label-%(0)s {
-                background: #FFF;
+                background: black;
                 border-bottom: 1px solid transparent;
             }
             input.ipyplot-tab-%(0)s ~ .tab {
@@ -181,7 +181,7 @@ def _create_html_viewer(
         }
 
         #ipyplot-html-viewer-textarea-%(1)s {
-            background: lightgrey;
+            background: black;
             width: 100%%;
             height: 0px;
             display: none;
@@ -199,7 +199,7 @@ def _create_html_viewer(
             left: 0;
             right: 0;
             bottom: 0;
-            background: white;
+            background: black;
             cursor: pointer;
             color: blue;
             text-decoration: underline;
@@ -419,7 +419,7 @@ def _get_default_style(img_width: int, zoom_scale: float):
 
         div.ipyplot-content-div-%(0)s {
             width: %(1)spx;
-            background: white;
+            background: black;
             display: inline-block;
             vertical-align: top;
             text-align: center;
